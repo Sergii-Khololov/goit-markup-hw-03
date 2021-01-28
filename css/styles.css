@@ -51,10 +51,10 @@ body {
 
 .header {
   background: #ffffff;
-  border-bottom: 1px solid #ececec;
 }
+
 .page-header {
-  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -386,6 +386,7 @@ input[type="radio"].visually-hidden {
 /*====== Filtr ======*/
 
 .features {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 

@@ -50,14 +50,11 @@ body {
 /*======= Header ======*/
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
   background: #ffffff;
   border-bottom: 1px solid #ececec;
-  margin-bottom: 19px;
 }
 .page-header {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .header .container {
@@ -80,17 +77,18 @@ body {
   display: flex;
   align-items: center;
 }
+.nav-list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .nav-list-item:not(:last-child) {
   margin-right: 40px;
 }
 
 .header-list {
-  margin-left: auto;
-}
-
-.header-list {
   display: flex;
+  margin-left: auto;
 }
 
 .nav-list-link {
@@ -163,10 +161,6 @@ body {
 .hero {
   text-align: center;
   background: #2f303a;
-  margin-bottom: 75px;
-}
-
-.hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -187,15 +181,10 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   min-width: 200px;
-  height: 50px;
-  left: 791px;
-  top: 449px;
-  padding-left: 18px;
-  padding-top: 10px;
-  padding-right: 46px;
-  padding-bottom: 10px;
+  padding: 8px 30px;
   color: #ffffff;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -221,11 +210,13 @@ input[type="radio"].visually-hidden {
 }
 
 .feature {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
   display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .feature-item:not(:last-child) {
@@ -240,7 +231,6 @@ input[type="radio"].visually-hidden {
 .feature-title {
   font-weight: 700;
   font-size: 14px;
-  /*line-height: 1.143px;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--subtitle-color);
@@ -258,12 +248,11 @@ input[type="radio"].visually-hidden {
 /*====== What we do ======*/
 
 .work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work-list {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .work-title {
@@ -291,8 +280,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 50px;
 }
 
-.team-blok {
-  padding-top: 94;
+.team {
   padding-bottom: 94px;
 }
 
@@ -307,12 +295,13 @@ input[type="radio"].visually-hidden {
 
 .team-item {
   margin: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-content {
-  padding-top: 30px;
-  padding-left: 59px;
-  padding-right: 59px;
+  padding: 30px 32px;
 }
 
 .team-item-title {
@@ -387,7 +376,6 @@ input[type="radio"].visually-hidden {
 .footer-link-tel {
   font-weight: normal;
   font-size: 14px;
-  /*line-height: 1.714px;*/
   letter-spacing: 0.03em;
 }
 
@@ -398,7 +386,7 @@ input[type="radio"].visually-hidden {
 /*====== Filtr ======*/
 
 .features {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .features-btn {

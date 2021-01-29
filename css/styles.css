@@ -438,6 +438,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
+  height: 1360px;
 }
 
 .features-list-item {

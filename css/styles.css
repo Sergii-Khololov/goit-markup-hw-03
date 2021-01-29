@@ -77,10 +77,6 @@ body {
   display: flex;
   align-items: center;
 }
-.nav-list-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .nav-list-item:not(:last-child) {
   margin-right: 40px;
@@ -91,11 +87,18 @@ body {
   margin-left: auto;
 }
 
+.header-mail {
+  margin-right: 50px;
+}
+
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143px;
   color: var(--text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .nav-list-link:hover,
@@ -113,6 +116,9 @@ body {
   line-height: 1.143px;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-list-tel:hover,
@@ -126,7 +132,9 @@ body {
   line-height: 1.143px;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
-  margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-list-mail:hover,
@@ -216,7 +224,6 @@ input[type="radio"].visually-hidden {
 
 .feature-list {
   display: flex;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .feature-item:not(:last-child) {
@@ -233,14 +240,16 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--subtitle-color);
+  color: var(--text-color);
   margin-bottom: 10px;
 }
 
 .feature-text {
+  width: 270px;
+  height: 75px;
   font-weight: normal;
   font-size: 14px;
-  /*line-height: 1.714px;*/
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
 }
@@ -282,6 +291,8 @@ input[type="radio"].visually-hidden {
 
 .team {
   padding-bottom: 94px;
+  padding-top: 94px;
+  background: #f5f4fa;
 }
 
 .team-title {
@@ -331,6 +342,7 @@ input[type="radio"].visually-hidden {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  height: 252px;
 }
 
 .footer-link-mail {
@@ -431,13 +443,15 @@ input[type="radio"].visually-hidden {
 .features-list-item {
   margin: 15px;
   width: 370px;
-}
+  height: 404px;
 
-.tehno {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .features-list-title {
+  width: 322px;
+  height: 36px;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -448,6 +462,8 @@ input[type="radio"].visually-hidden {
 }
 
 .features-list-subtitle {
+  width: 322px;
+  height: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -458,5 +474,6 @@ input[type="radio"].visually-hidden {
 }
 
 .features-content {
+  width: 322px;
   padding: 20px 24px;
 }

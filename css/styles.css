@@ -46,11 +46,15 @@ body {
   --subtitle-color: #757575;
   --contact-color: rgba(255, 255, 255, 0.6);
   --text-color: #212121;
+  --white-color: #ffffff;
 }
+
+/*========== Studio ==========*/
+
 /*======= Header ======*/
 
 .header {
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .page-header {
@@ -94,7 +98,6 @@ body {
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143px;
   color: var(--text-color);
   padding-top: 32px;
   padding-bottom: 32px;
@@ -113,7 +116,6 @@ body {
 .header-list-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143px;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
   padding-top: 32px;
@@ -129,7 +131,6 @@ body {
 .header-list-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143px;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
   padding-top: 32px;
@@ -179,7 +180,7 @@ body {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
   margin-bottom: 40px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -193,12 +194,14 @@ body {
 
   min-width: 200px;
   padding: 8px 30px;
-  color: #ffffff;
+  color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
 }
+
+/*====== Hero End ======*/
 
 /*====== Feature ======*/
 
@@ -254,6 +257,8 @@ input[type="radio"].visually-hidden {
   color: var(--subtitle-color);
 }
 
+/*====== Feature End ======*/
+
 /*====== What we do ======*/
 
 .work {
@@ -278,7 +283,9 @@ input[type="radio"].visually-hidden {
   margin-right: 30px;
 }
 
-/*====== -Our Team ======*/
+/*====== What we do End ======*/
+
+/*====== Our Team ======*/
 
 .team-list {
   display: flex;
@@ -309,6 +316,7 @@ input[type="radio"].visually-hidden {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background: var(--white-color);
 }
 
 .team-content {
@@ -318,7 +326,6 @@ input[type="radio"].visually-hidden {
 .team-item-title {
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 1.188px;*/
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -330,11 +337,12 @@ input[type="radio"].visually-hidden {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  /*line-height: 1.188px;*/
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
 }
+
+/*====== Our Team End ======*/
 
 /*====== Footer ======*/
 
@@ -363,11 +371,11 @@ input[type="radio"].visually-hidden {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-map {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-list-item {
@@ -391,7 +399,11 @@ input[type="radio"].visually-hidden {
   letter-spacing: 0.03em;
 }
 
-/*====== Portfolio ======*/
+/*====== Footer End ======*/
+
+/**========== Studio End ==========**/
+
+/**========== Portfolio ==========**/
 
 /*====== Main ======*/
 
@@ -415,7 +427,9 @@ input[type="radio"].visually-hidden {
 .btn:hover,
 .btn:focus {
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn {
@@ -426,11 +440,10 @@ input[type="radio"].visually-hidden {
   text-align: center;
   letter-spacing: 0.03em;
   border: 0;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
+/*====== Filtr End ======*/
 
 /*====== Описание проектов ======*/
 
@@ -438,7 +451,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
-  height: 1360px;
 }
 
 .features-list-item {
@@ -446,7 +458,7 @@ input[type="radio"].visually-hidden {
   width: 370px;
   height: 404px;
 
-  background: #ffffff;
+  background: var(--white-color);
   border: 1px solid #eeeeee;
 }
 
@@ -475,6 +487,9 @@ input[type="radio"].visually-hidden {
 }
 
 .features-content {
+  box-sizing: content-box;
   width: 322px;
   padding: 20px 24px;
 }
+
+/*====== Описание проектов End ======*/
